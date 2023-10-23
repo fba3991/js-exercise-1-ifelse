@@ -79,7 +79,7 @@ else {
 } */
 
 
-let peso = parseInt(prompt("Indica il tuo peso in kg"));
+/* let peso = parseInt(prompt("Indica il tuo peso in kg"));
 let altezza = parseInt(prompt("Indica la tua altezza in centimetri")) /100;
 let bmi = peso / (altezza * altezza);
 
@@ -90,8 +90,26 @@ if (bmi < 18.5){
 } else {
     alert("Sei sovrappeso. Il tuo BMI è: " + bmi);
 }
+ */
 
+/* let punteggio = parseInt(prompt("Inserisci il tuo punteggio del test:"));
 
+if ( punteggio >= 90){
+    alert( " voto A")
+}
+if ( punteggio >= 80){
+    alert( "voto b")
+}
+if ( punteggio >= 70){
+    alert( "voto c")
+}
+if ( punteggio >= 60){
+    alert( "l voto d")
+}
+else{
+    alert("il tuo voto e una f")
+}
+ */
 
 
 
