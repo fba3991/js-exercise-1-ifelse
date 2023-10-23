@@ -51,8 +51,18 @@ alert("La mancia da lasciare è: " + calcolo); */
     alert("Puoi vedere tutti i film.");
 } 
  */
+ 
+ 
 
+/* let totale = parseFloat(prompt("Qual è il prezzo dell'articolo?"));
+let percentuale = parseFloat(prompt("qual'è la percentuale di sconto?"));
 
+let calcolo = (totale * percentuale) / 100;
+if (calcolo < 49) {
+  alert(calcolo + " buona serata");
+} else {
+  alert(calcolo + " è un ottimo affare");
+}  */
 
 
 
