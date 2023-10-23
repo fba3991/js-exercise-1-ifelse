@@ -22,12 +22,26 @@ let frase = " ° celsius"
 alert(calcolo3 + frase) 
  */
 
-let student1 = prompt( "indica la valutazione del tuo test") 
+/* let student1 = prompt( "indica la valutazione del tuo test") 
 let studentN1 = parseInt(student1)
 let student2 = prompt("indica la valutazione del tuo test")
 let studentN2 = parseInt(student2)
 let student3 = prompt ("indica la valutazione del tuo test")
 let studentN3 = parseInt(student3)
 let  media = (studentN1 + studentN2 + studentN3 ) / 3
-alert(media)
+alert(media) */
+
+
+
+let totale = parseFloat(prompt("Qual è il totale del conto?"));
+let percentuale = parseFloat(
+  prompt("Quale percentuale di mancia vuoi lasciare?")
+);
+let calcolo = (totale * percentuale) / 100;
+alert("La mancia da lasciare è: " + calcolo);
+
+
+
+
+
 
