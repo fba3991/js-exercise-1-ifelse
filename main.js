@@ -63,8 +63,33 @@ if (calcolo < 49) {
 } else {
   alert(calcolo + " è un ottimo affare");
 }  */
+/* 
+let kg =  parseInt(prompt("indica il tuo peso in kg"));
+let m =  parseInt(prompt (" indica la tua altezza in metri"));
+let bmi = peso / (altezza * altezza);
+ 
+if (bmi < 18.5){
+    alert("sei sotto posso");
+}
+else if (bmi >= 18.5 && bmi <= 24.9)   {
+    alert("hai un peso normale");
+}
+else {
+    alert("sei sovrappeso");
+} */
 
 
+let peso = parseInt(prompt("Indica il tuo peso in kg"));
+let altezza = parseInt(prompt("Indica la tua altezza in centimetri")) /100;
+let bmi = peso / (altezza * altezza);
+
+if (bmi < 18.5){
+    alert("Sei sottopeso. Il tuo BMI è: " + bmi);
+} else if (bmi >= 18.5 && bmi <= 24.9) {
+    alert("Hai un peso normale. Il tuo BMI è: " + bmi);
+} else {
+    alert("Sei sovrappeso. Il tuo BMI è: " + bmi);
+}
 
 
 
