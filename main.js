@@ -1,116 +1,68 @@
-/* let tazzeVendute = prompt("quante tazze hai venduto oggi?");
-let prezzo = 2;
-let guadagni = tazzeVendute * prezzo;
-let messaggio = "Oggi hai venduto " ;
-let fine = " tazze di caffe"
-let frase = messaggio + guadagni + fine;
-alert(frase); */
+/* let tazze = prompt('quante tazze di caffe hai venduto oggi?')
+let tazzeVendute= 4;
+let guadagno = tazze * tazzeVendute;
+alert(guadagno); */
+/* let eta = prompt('quando sei nato');
+let annoCorrente = 2023;
+let calcolo =eta - 2023;
+alert(calcolo);
+ */
+/* let temperatura = prompt('inserisci temperatura in gradi')
+let celcius = (temperatura - 32) * 5/9;
+alert(celcius); */
 
-/* let AnnoDiNAscita = prompt( "indica il tuo anno di nascita?")
-let AnnoAttuale = 2023;
-let calcolo = AnnoAttuale - AnnoDiNAscita;
-alert(calcolo) */
+/* let stud1 = parseInt(prompt('voto primo studente'));
+let stud2 = parseInt (prompt('voto secondo studente'));
+let stud3 = parseInt (prompt('voto terzo studente'));
+let mediaVoto = (stud1 + stud2 + stud3) /3;
+alert(mediaVoto); */
 
-/* let Temperatura = prompt("indica temperatura in far")
-let Celcius1 = 32;
-let celcius2  = 9;
-let celcius3 = 5;
-let calcolo1 =  Temperatura - Celcius1;
-let calcolo2 =  calcolo1 / celcius2
-let calcolo3 = calcolo2 *  celcius3
-let frase = " ° celsius"
-alert(calcolo3 + frase) 
+/* let totaleConto = parseInt(prompt('inserisci conto'));
+let percentualeMancia = parseInt(prompt('inserisci mancia'));
+let mancia = (totaleConto * percentualeMancia) /100;
+alert(mancia + ' euro'); 
  */
 
-/* let student1 = prompt( "indica la valutazione del tuo test") 
-let studentN1 = parseInt(student1)
-let student2 = prompt("indica la valutazione del tuo test")
-let studentN2 = parseInt(student2)
-let student3 = prompt ("indica la valutazione del tuo test")
-let studentN3 = parseInt(student3)
-let  media = (studentN1 + studentN2 + studentN3 ) / 3
-alert(media) */
-
-
-/* 
-let totale = parseFloat(prompt("Qual è il totale del conto?"));
-let percentuale = parseFloat(
-  prompt("Quale percentuale di mancia vuoi lasciare?")
-);
-let calcolo = (totale * percentuale) / 100;
-alert("La mancia da lasciare è: " + calcolo); */
-
-
-/* 
-   var eta = parseInt(prompt("Quanti anni hai?"));
-   if (eta < 13) {
-    alert("Puoi vedere solo film con classificazione PG.");
-} else if (eta >= 13 && eta < 17) {
-    alert("Puoi vedere film con classificazione PG e PG-13.");
-} else {
-    alert("Puoi vedere tutti i film.");
+/*  let eta = parseInt(prompt( 'inserisci la tua eta'))
+if(eta <=13){
+    alert('puoi vedere solo film con classificazione PG');
+}else if(eta >=13 === eta <17) { //possiamo usare anche &&//
+    alert('puoi vedere film con classificazione pg e pg-13');
+} else{
+    alert('puoi vedere tutti i film');
 } 
  */
- 
- 
 
-/* let totale = parseFloat(prompt("Qual è il prezzo dell'articolo?"));
-let percentuale = parseFloat(prompt("qual'è la percentuale di sconto?"));
-
-let calcolo = (totale * percentuale) / 100;
-if (calcolo < 49) {
-  alert(calcolo + " buona serata");
-} else {
-  alert(calcolo + " è un ottimo affare");
-}  */
-/* 
-let kg =  parseInt(prompt("indica il tuo peso in kg"));
-let m =  parseInt(prompt (" indica la tua altezza in metri"));
-let bmi = peso / (altezza * altezza);
- 
-if (bmi < 18.5){
-    alert("sei sotto posso");
-}
-else if (bmi >= 18.5 && bmi <= 24.9)   {
-    alert("hai un peso normale");
-}
-else {
-    alert("sei sovrappeso");
+/* let prezzoOriginale = parseInt(prompt('inseriaci prezzo originale'));
+let prezzoPercentuale = parseInt(prompt('inserisci prezzo percentuale'));
+let importoSconto = (prezzoOriginale * prezzoPercentuale) / 100;
+let prezzoFinale = prezzoOriginale - importoSconto;
+alert(' importo dello sconto ' + importoSconto + ' prezzo finale '+ prezzoFinale);
+if(prezzoPercentuale >50){
+    alert('questo e un affare')
 } */
 
-
-/* let peso = parseInt(prompt("Indica il tuo peso in kg"));
-let altezza = parseInt(prompt("Indica la tua altezza in centimetri")) /100;
+/* let peso = parseInt(prompt('inserisci il tuo peso in chilogrammi'));
+let altezza =parseInt(prompt('insersic la tua altezza in metri'));
 let bmi = peso / (altezza * altezza);
-
-if (bmi < 18.5){
-    alert("Sei sottopeso. Il tuo BMI è: " + bmi);
-} else if (bmi >= 18.5 && bmi <= 24.9) {
-    alert("Hai un peso normale. Il tuo BMI è: " + bmi);
-} else {
-    alert("Sei sovrappeso. Il tuo BMI è: " + bmi);
-}
+if(bmi <18.5){
+    alert( "Il tuo BMI è " + bmi + ". Sei sottopeso.");
+}else if(bmi > 18.5 === bmi < 24.9){
+    alert("Il tuo BMI è " + bmi + ". Hai un peso normale." );
+} else{
+    alert( "Il tuo BMI è " + bmi + ". Sei sovrappeso.")
+} 
  */
 
-/* let punteggio = parseInt(prompt("Inserisci il tuo punteggio del test:"));
-
-if ( punteggio >= 90){
-    alert( " voto A")
-}
-if ( punteggio >= 80){
-    alert( "voto b")
-}
-if ( punteggio >= 70){
-    alert( "voto c")
-}
-if ( punteggio >= 60){
-    alert( "l voto d")
-}
-else{
-    alert("il tuo voto e una f")
-}
- */
-
-
-
-
+l/* et votoTest = parseInt(prompt('inserisci voto del test'));
+if(votoTest >= 90){
+    alert(' hai preso una A ' +  votoTest);
+ }   else if (votoTest >=80){
+    alert('hai preso B');
+} else if (  votoTest >=70){
+    alert('hai preso C');
+}else if ( votoTest>= 60){
+    alert('hai preso D');
+}else {
+    alert('hai preso F')
+}  */
